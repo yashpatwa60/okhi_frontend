@@ -1,0 +1,34 @@
+.main-layout
+{
+    display: flex;
+}
+.drawer
+{
+    width: 250px;
+    height: 100vh;
+}
+.drawer-items
+{
+    margin: 30px;
+    padding: 20px;
+    font-size: large;
+    color: #01497c;
+    font-weight: 1000;
+}
+.navbar-layout
+{
+    width: 100%;
+}
+
+.admin-table
+{
+    padding: 50px;
+    margin: 50px;
+}
+
+/* User-Table*/
+.table-head
+{
+    background-color: black;
+    color: white;
+}
