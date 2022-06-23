@@ -24,7 +24,7 @@ const CardEditor = () => {
   // const [whatsapp_msg]
   const target = useRef(null);
 
-  const copied = `https://okhi.in/hi/${user.mobile}`;
+  const copied = `https://okhi.netlify.app/hi/${user.mobile}`;
   const WhatsappApi = `https://api.whatsapp.com/send?text=${copied}`;
 
   //lifting state up
@@ -88,11 +88,11 @@ const CardEditor = () => {
           <Row>
             {/*Share card*/}
 
-            {user.is_approved ? (
+            {/* {user.is_approved ? ( */}
               <Col md={12} lg={12}>
                 <Share user={user} isFinal={false} />
               </Col>
-            ) : null}
+            {/* ) : null} */}
 
             <div className="w-100 my-2"></div>
             {/*Live Display of Card*/}
