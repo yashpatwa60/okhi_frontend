@@ -4,6 +4,8 @@ import { Container, Col, Row, Form, Button, Card, Spinner } from "react-bootstra
 import { useToasts } from "react-toast-notifications";
 import "../../assets/css/pages/login.css";
 import { CaLock, CaLogin } from "../../assets/img/paths";
+import TestUser from "../testuser/index"
+
 
 // API Related
 const axios = require("axios");
@@ -76,6 +78,16 @@ function SignIn() {
                     <CaLock fill="#00b4d8" />
                     <h2>Sign In</h2>
                   </Col>
+                </Row>
+
+                <Row >
+                  <Col align="center" style={{ marginTop: "4px", marginBottom: "10px"}}>
+                    <TestUser />
+                  </Col>
+                </Row>
+
+                <Row>
+                  <Col align="center">or</Col>
                 </Row>
 
                 <Row>
