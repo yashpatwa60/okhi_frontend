@@ -1,11 +1,18 @@
 import React from "react";
-import { Container, Navbar, Nav } from "react-bootstrap";
+import { Container, Navbar, Nav, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../../assets/css/pages/navbar.css";
 import LogoImage from "../../assets/img/logo.png";
 const NavbarComponent = () => {
   return (
     <div>
+      <div className="p-3 text-white " style={{ backgroundColor: "#219ebc"}}>
+        <Row>
+          <Col>🚀 New Feature: Now you can log in as a 
+          <Link className="text-white" to="/login"> <span style={{ textDecoration: "underline"}}>test user</span> </Link>
+          without the hassle of signing up!</Col>
+        </Row>
+      </div>
       <Navbar collapseOnSelect expand="lg" bg="light " variant="light">
         <Container>
           <Link to="/">
