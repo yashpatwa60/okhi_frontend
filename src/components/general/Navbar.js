@@ -12,6 +12,7 @@ const NavbarComponent = () => {
           <Link className="text-white" to="/login"> <span style={{ textDecoration: "underline"}}>test user</span> </Link>
           without the hassle of signing up!</Col>
         </Row>
+        <Row><Col>🔑 Your Gmail and password will be the same as your name.</Col></Row>
       </div>
       <Navbar collapseOnSelect expand="lg" bg="light " variant="light">
         <Container>
